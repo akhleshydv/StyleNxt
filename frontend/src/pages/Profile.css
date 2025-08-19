@@ -1,0 +1,48 @@
+.profile-page {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-container {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.profile-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.field-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666;
+}
+
+.field-value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+} 
